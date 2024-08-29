@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Timer + Zen Writing App</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1> Zen Writing App </h1>
+<details>This tiny web thingamajig is clean, no clutter, and lets you type without backspacing. Write first, edit later! Made a typo? That's okay, just keep moving forward. You can always fix it later. Write in a flow. Get the text out of your system and refine it later. <summary>Why?</summary></details>
+<textarea id ="zentextarea" oninput="wordCount()" autofocus> </textarea>
+   
+<button type="button" onclick="download()">💾 Save</button>
+
+<label id="wordcount"></label> 
+
+<input type="number" id="minutesInput" placeholder="Enter minutes">
+<button onclick="startTimer()">Start Timer</button>
+<div id="countdown"></div>
+
+<input type="checkbox" id="toggleCheckbox"> Disable Backspace
+</input>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
