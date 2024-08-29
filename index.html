@@ -2,14 +2,26 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Timer + Zen Writing App</title>
+  <title>Zen Writing App</title>
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/water.css@2/out/water.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
+
 <h1> Zen Writing App </h1>
-<details>This tiny web thingamajig is clean, no clutter, and lets you type without backspacing. Write first, edit later! Made a typo? That's okay, just keep moving forward. You can always fix it later. Write in a flow. Get the text out of your system and refine it later. <summary>Why?</summary></details>
+<details>This tiny web thingamajig is clean, no clutter, and lets you type without backspacing. Write first, edit later! Made a typo? That's okay, just keep moving forward. You can always fix it later. Write in a flow. Get the text out of your system and refine it later. <summary>❔ Why?</summary></details>
+
+<details>
+<ul>
+<li>Make app work offline (PWA) </li>
+<li>Making it impossible to untick "Disable backspace" once it has been toggled; at least until the timer finishes</li>
+<li>Display time left in a better way</li>
+<li>Ability to name file that is being downloaded</li>
+</ul>
+<summary>💡 To Do</summary>
+</details>
+
 <textarea id ="zentextarea" oninput="wordCount()" autofocus> </textarea>
    
 <button type="button" onclick="download()">💾 Save</button>
@@ -24,6 +36,8 @@
 </input>
 <!-- partial -->
   <script  src="./script.js"></script>
-
+<footer><p>uses <a href="https://github.com/kognise/water.css">water.css</a>, an open-source super-simple CSS framework! </p>
+  <p> Thanks to contributions from Stackoverflow user <a href="https://stackoverflow.com/questions/21479107/saving-html5-textarea-contents-to-file">A-Sharabiani</a>, <a href="https://tutorial.eyehunts.com/js/how-to-disable-backspace-in-textbox-using-javascript-example-code/">Tutorial by EyeHunts</a>
+  </footer>
 </body>
 </html>
