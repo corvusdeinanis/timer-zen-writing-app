@@ -7,6 +7,8 @@ One of the reasons why I struggle to finish writing is because I'm constantly ed
 From my site,
 This tiny web thingamajig is clean, no clutter, and lets you type without backspacing. Write first, edit later! Made a typo? That's okay, just keep moving forward. You can always fix it later. Write in a flow. Get the text out of your system and refine it later.
 
+(more credit to the dozens of StackOverflow answers I read than to me, honestly.)
+
 ## Uses
 
 Can be used for journaling. I think this is a solid use case. Use it as a means of cathartic venting, void-shouting
