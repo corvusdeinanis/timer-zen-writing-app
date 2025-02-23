@@ -23,7 +23,7 @@ Clean, clutter-free. Distraction free writing
 It is a minimal website that uses water.css, an open-source super-simple CSS framework! This makes the site look super clean and professional with zero effort from me.
 
 ## To Do
-- Make app work offline (PWA) 
--Making it impossible to untick "Disable backspace" once it has been toggled; at least until the timer finishes
--Display time left in a better way
--Ability to name file that is being downloaded
+- [ ] Make app work offline (PWA) 
+- [ ] Making it impossible to untick "Disable backspace" once it has been toggled; at least until the timer finishes
+- [ ] Display time left in a better way
+- [ ] Ability to name file that is being downloaded
